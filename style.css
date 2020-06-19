@@ -1,0 +1,132 @@
+htmlhtml,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+html, body {
+
+background-image: url("graphic4.jpg");
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 20px; color: #50AAA9;}
+
+a {color:#30b043;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+p {p {outline-color:black;}
+
+.header {
+  background-color: #1D1F20;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 50px; color: #9b9b97;}
+}
+.eportfolio {
+	text-align: left;
+  font-family: 'comic sans ms', helvetica, arial, sans-serif;color: #9b9b97; padding-left: 40px}
+
+.header {
+  background-color: #1D1F20;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 50px; color: #9b9b97;}
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav{
+	  border: 1px solid black;
+	  background-color: #9b9b97;
+	  padding-top: 0px;
+	  padding-right: 30px;
+	  padding-bottom: 45px;
+	  padding-left: 110px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #0a0a0a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.preamble {
+	width: 90%;
+	max-width: 1200px;
+	background: #4E5356;opacity:0.8;
+	margin: 30px auto;
+	padding-top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+  font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 16px; color: #9b9b97;}
+
+.skeletor {
+ background-image: url("anonymous.jpg");
+ background-repeat: no-repeat;
+ background-attachment: cover:}
+
+.skeletor {
+  background-color: #aaa;
+  width: 50%;
+  padding: 40px;
+  min-height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	margin-top: 20px;
+	float: left;
+}
+.personalInfo {
+	width: 25%;
+	max-width: 400px;
+  background: #4E5356;opacity:0.8;
+  margin-top: 20px;
+	margin-left: 300px;
+	margin-bottom: 150px;
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+  font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 16px; color: #FFFFFF;}
+}
+
+
+}
+
+@media screen and (max-width: 800px)
+{
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+}
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+
+}
