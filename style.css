@@ -18,6 +18,7 @@ background-image: url("graphic4.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+padding: 10px;
 font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 20px; color: #50AAA9;}
 
 a {color:#30b043;}
