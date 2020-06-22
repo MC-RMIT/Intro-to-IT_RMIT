@@ -13,9 +13,127 @@ display:block;
 
 html, body {
 
-background-image: url("graphic4.jpg");
+background-image: url("Mountain Monk.jpeg");
 
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 20px; color: #50AAA9;}
+padding: 10px;
+font-family: 'Georgia', helvetica, arial, sans-serif; font-size: 20px; color:green;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+  width: 80%;
+  max-width: 1200px;
+  background: #040f0f;opacity:0.8;
+  margin: 30px auto;
+  padding-top:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+.header1 {padding-bottom: 10px}
+
+
+a:link, a:visited {
+  background-color: #474748;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+a:hover, a:active {
+  background-color: #1769b5;
+
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #aeadad;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.img1 {float:left;}
+
+.img1 {
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.clearfix {overflow:auto;}
+
+.right {float right;
+  width: 400px;
+  height: 920px;
+  max-width: 1200px;
+  background-color: #040f0f;opacity:0.9;
+  margin-left:450px;
+  margin-top: 30px;
+	margin-bottom: 55px;
+  padding-top:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+.right h2 {font-family: 'Georgia', helvetica, arial, sans-serif; font-size: 20px; color: #50AAA9;
+text-align: center;}
+
+
+.mainbody {
+  float: left;
+  width: 100%;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;}
+
+
+}
+
+
+.card {
+  background-image: url("matrix2.jpg");
+  padding: 20px;
+  margin-top: 20px;}
+
+	.card h2{margin-left: 50px}
+}
+.h5 {font-family: 'Georgia', helvetica, arial, sans-serif; font-size: 20px; color: #50AAA9;}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
