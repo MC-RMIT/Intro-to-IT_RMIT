@@ -24,13 +24,12 @@ font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 20px; color: #50
 a {color:#30b043;}
 
 p {
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
 	color: #FFFFFF;
 }
 p {p {outline-color:black;}
-
 
 
 .header {
@@ -40,8 +39,11 @@ p {p {outline-color:black;}
   font-family: 'georgia', helvetica, arial, sans-serif; font-size: 50px; color: #9b9b97;}
 }
 .eportfolio {
-	text-align: left;
-  font-family: 'comic sans ms', helvetica, arial, sans-serif;color: #9b9b97; padding-left: 40px}
+	font-family: 'comic sans ms', helvetica, arial, sans-serif;color: #9b9b97;
+  padding-left: 40px;
+	margin-left: 20px;
+	margin-top: 50px;
+}
 
 .header {
   background-color: #1D1F20;
@@ -75,15 +77,16 @@ p {p {outline-color:black;}
   color: black;
 }
 .preamble {
-	width: 90%;
-	max-width: 1200px;
-	background: #4E5356;opacity:0.8;
-	margin: 30px auto;
+	width: 75%;
+	max-width: 1000px;
+	background: #4E5356;opacity:0.6;
+	margin: 40px auto;
 	padding-top:20px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 20px;
-  font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 16px; color: #9b9b97;}
+	padding-bottom: 50px;
+  font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 25px; color: #0a0a0a;
+text-align: center;}
 
 .skeletor {
  background-image: url("anonymous.jpg");
@@ -118,7 +121,8 @@ p {p {outline-color:black;}
   font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 16px; color: #FFFFFF;}
 
 .s2head {text-align: left;
-	font-family:'comic sans ms', helvetica, arial, sans-serif;color: #9b9b97; padding-left: 20px; padding-bottom: 20px;}
+	font-family:'comic sans ms', helvetica, arial, sans-serif;color: #9b9b97; padding-left: 20px; padding-bottom: 20px;
+margin-top: 30px;}
 
 .sectionTitle {padding-left: 20px}
 
@@ -145,3 +149,5 @@ p {p {outline-color:black;}
 		padding-bottom: 20px;
 
 		font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 16px; color: #9b9b97;}
+
+.ref{font-family: 'Nimrod', helvetica, arial, sans-serif; font-size: 16px; color: #9b9b97;}
