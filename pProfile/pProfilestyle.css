@@ -54,9 +54,6 @@ a:hover, a:active {
 
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .header {
   padding: 20px;
@@ -75,7 +72,7 @@ a:hover, a:active {
   margin-left: 25px;
   margin-top: 50px;
   margin-right: 20px;
-  max-width:400px;
+
 }
 }
 .img1 {float:left;}
@@ -106,13 +103,6 @@ a:hover, a:active {
 	text-align: center;
 }
 
-.card {
-
-  padding: 20px;
-  margin-top: 30px;
-	margin-bottom: 30px;
-
-}
 
 .card h2{
 	font-size: 40px;
